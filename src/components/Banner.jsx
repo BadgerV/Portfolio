@@ -55,6 +55,12 @@ const Banner = () => {
     }
   };
 
+  const handleClick = (e, link) => {
+    e.preventDefault();
+
+    window.open(link, "_blank");
+  };
+
   return (
     <section className="banner" id="home">
       <Container>
@@ -75,8 +81,8 @@ const Banner = () => {
               up-to-date with the latest front-end development trends ensures a
               superior user experience.
             </p>
-            <button onClick={() => console.log("connect")}>
-              Let's Connect
+            <button>
+              <a href="#connect">Let's Connect</a>
               <ArrowRightCircle size={25} />
             </button>
           </Col>

@@ -36,6 +36,15 @@ body {
   font-family: "Centra", sans-serif !important;
 }
 
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: white !important;
+}
+
 h1,
 h2,
 h3,
@@ -380,7 +389,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .project {
-  padding: 80px 0;
+  padding: 80px 0.5rem;
   position: relative;
   background-color: black;
 }
@@ -572,7 +581,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Projects Css ************/
 .contact {
   background: linear-gradient(90.21deg, #aa367c -5.91%, #4a2fbd 111.58%);
-  padding: 60px 0 200px 0;
+  padding: 60px 0.5rem 200px 0.5rem;
 }
 .contact img {
   width: 92%;
