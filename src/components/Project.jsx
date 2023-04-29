@@ -62,14 +62,14 @@ const Project = () => {
         <Row>
           <Col>
             <h2>Projects</h2>
-            <p>
+            <p className="paragraph-text">
               Welcome to the project section of my portfolio, where I'm thrilled
               to showcase my professional accomplishments and skills. Here,
               you'll find three dedicated tabs: Projects, Skills, and
               Achievements, each offering a comprehensive look into my work
               experience and personal growth as a professional.
             </p>
-            <Tab.Container id="projects-tabs defaultActiveKey = " first>
+            <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav
                 variant="pills"
                 className="nav-pills mb-5 justify-content-center align-items-center tabs"
@@ -134,7 +134,7 @@ const Project = () => {
                     <h4>Achievements</h4>
                     <ul>
                       <li>
-                        Participated in a hackathon organized by Solana and
+                        Participated and won a hackathon orgarnized my MIT,
                         worked with a team to develop a new, innovative web
                         application that received recognition from the judges.
                       </li>

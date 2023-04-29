@@ -407,6 +407,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
+
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
@@ -473,7 +474,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .proj-imgbx a img {
   display: block;
-  height: 18rem;
+  aspect-ratio: 1;
 }
 
 .proj-imgbx a:hover {
@@ -500,6 +501,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
+
+  padding: 0.5rem;
 }
 .proj-imgbx:hover .proj-txtx {
   top: 35%;
@@ -761,5 +764,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 @media screen and (max-width: 390px) {
   .tab-text {
     font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 950px) {
+  .project p {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .paragraph-text {
+    width: 90% !important;
   }
 }
