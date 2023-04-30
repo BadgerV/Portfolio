@@ -12,6 +12,7 @@ import project5 from "../assets/img/Trillo.png";
 import project6 from "../assets/img/SKKN.png";
 
 const Project = () => {
+  //lsit of propjects
   const projects = [
     {
       title: "Advanced Dashboard",
