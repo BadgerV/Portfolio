@@ -495,8 +495,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx {
   position: absolute;
   text-align: center;
-  top: 10%;
-  left: -50%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.5s ease-in-out;
   opacity: 0;
@@ -506,7 +506,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx:hover .proj-txtx {
   top: 35%;
-  left: 50%;
+
   opacity: 1;
 }
 
@@ -520,6 +520,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   cursor: pointer;
 
   transform: translateX(-50%);
+
+  transition: all 0.1s ease-in-out;
 }
 
 .achieve {
