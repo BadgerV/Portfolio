@@ -150,7 +150,7 @@ const Project = () => {
                         development technologies, culminating in a final project
                         that received an "A" grade from an instructor.
                       </li>
-                      <li>Contributed to an open-source projects.</li>
+                      <li>Contributed to open-source projects.</li>
                     </ul>
                   </div>
                 </Tab.Pane>
