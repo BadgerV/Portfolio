@@ -72,14 +72,16 @@ const Banner = () => {
               <span className="wrap">{text}</span>
             </h1>
             <p>
-              As a front-end developer, I create visually striking and
-              responsive user interfaces for web applications using HTML, CSS,
-              and JavaScript. I collaborate with back-end developers and
-              designers to translate user requirements into aesthetically
-              appealing and functional UI designs optimized for performance,
-              accessibility, and search engine visibility. My focus on staying
-              up-to-date with the latest front-end development trends ensures a
-              superior user experience.
+              As a seasoned Full Stack Developer with a year of expertise in
+              Node.js and React.js, I specialize in creating visually striking
+              and responsive user interfaces. I collaborate seamlessly with
+              back-end developers and designers to transform user requirements
+              into aesthetically pleasing and functionally impeccable UI
+              designs. My commitment to staying abreast of the latest front-end
+              trends ensures every project benefits from cutting-edge
+              innovation, delivering a superior user experience. In the dynamic
+              landscape of web development, I lead the charge, crafting digital
+              experiences that transcend expectations
             </p>
             <button>
               <a href="#connect">Let's Connect</a>

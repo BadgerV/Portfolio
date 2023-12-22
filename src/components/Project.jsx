@@ -10,23 +10,50 @@ import project3 from "../assets/img/Segunmaru.png";
 import project4 from "../assets/img/img1.png";
 import project5 from "../assets/img/Trillo.png";
 import project6 from "../assets/img/SKKN.png";
+import firtProject from "../assets/img/solpayplus.png";
+import secondProject from "../assets/img/realmomentum.png";
+import thirdProject from "../assets/img/mithackathon.png";
+import fourthProject from "../assets/img/medcon.png";
 
 const Project = () => {
   //lsit of propjects
   const projects = [
     {
-      title: "Advanced Dashboard",
+      title: "MedCon",
+      description:
+        "A web app that allows you to Instantly connect with doctors online for secure video consultations.Prioritize your health effortlessly with secure messaging, timely reminders, and reliable healthcare at your fingertips.",
+      imgUrl: fourthProject,
+      url: "https://medconnig.netlify.app",
+      url2: "https://github.com/BadgerV/Virtual-med",
+    },
+    {
+      title: "SolPayPlus",
+      description:
+        "SolPayPlus allow for payment of several kinds of bills (including airtime, data bundles, Internet, electricity and cable TV) in Nigeria and across multiple African countries.",
+      imgUrl: firtProject,
+      url: "https://solpayplus.com.ng/",
+      url2: "https://github.com/BadgerV/SolPayPlus",
+    },
+    {
+      title: "Real Momentum",
+      description: "Built uisng ReactJS and styled-components",
+      imgUrl: secondProject,
+      url: "https://realmomemtum.netlify.app/",
+      url2: "https://github.com/BadgerV/Real-Momentum",
+    },
+    {
+      title: "Etherino UI",
+      description: "Designed with React js and styled component",
+      imgUrl: thirdProject,
+      url: "https://etherino.netlify.app/",
+      url2: "https://github.com/BadgerV/MIT-hackathon",
+    },
+    {
+      title: "Dashboard",
       description: "Dasboard built with ReactJS and SCSS ",
       imgUrl: project1,
       url: "https://shiny-starburst-53a0ab.netlify.app/",
       url2: "https://github.com/BadgerV/LendSQR",
-    },
-    {
-      title: "Dashboard",
-      description: "Built uisng ReactJS and styled-components",
-      imgUrl: project2,
-      url: "https://incandescent-biscotti-9bccf9.netlify.app/",
-      url2: "https://github.com/BadgerV/Advance-Dashboard",
     },
     {
       title: "3D Portfolio",
@@ -34,27 +61,6 @@ const Project = () => {
       imgUrl: project3,
       url: "https://642e6d2517a6b06d18a4bbb5--exquisite-bublanina-72c45c.netlify.app/",
       url2: "https://github.com/BadgerV/3d-portfolio",
-    },
-    {
-      title: "SKKN Shopping Website",
-      description: "Shopping website built with ReactJS and CSS",
-      imgUrl: project6,
-      url: "https://heartfelt-biscuit-cbdbaa.netlify.app/",
-      url2: "https://github.com/BadgerV/SKKN-clone",
-    },
-    {
-      title: "Trillo Hotel Website",
-      description: "Hotel and flight booking app",
-      imgUrl: project5,
-      url: "https://tangerine-monstera-210b3f.netlify.app/",
-      url2: "https://github.com/BadgerV/Trillo-project",
-    },
-    {
-      title: "E-Commerce Website",
-      description: "Simple E-commerce website",
-      imgUrl: project4,
-      url: "https://incandescent-biscotti-9bccf9.netlify.app/",
-      url2: "https://github.com/BadgerV/crwn-clothings",
     },
   ];
   return (
@@ -105,27 +111,57 @@ const Project = () => {
                     <h4>Skills</h4>
                     <ul>
                       <li>
-                        Proficiency in JavaScript programming language,
-                        including modern frameworks like React.js and Vue.js.
+                        Full Stack Developer: Over one year of experience in
+                        developing end-to-end solutions, with a focus on
+                        JavaScript technologies.
                       </li>
                       <li>
-                        Experience in server-side scripting with Node.js,
-                        including building RESTful APIs and integrating with
-                        databases like MongoDB, MySQL, or PostgreSQL.
+                        Frontend Proficiency: Skilled in modern frontend
+                        frameworks, including React.js and Vue.js, ensuring
+                        intuitive and dynamic user interfaces.
                       </li>
                       <li>
-                        Strong knowledge of HTML, CSS, and frontend frameworks
-                        like Bootstrap and Tailwind.
+                        Backend Expertise: Proven track record in server-side
+                        scripting with Node.js, adept at constructing robust
+                        RESTful APIs and integrating with databases such as
+                        MongoDB, MySQL, and PostgreSQL.
                       </li>
                       <li>
-                        Familiarity with version control systems like Git, and
-                        the ability to collaborate effectively with other
-                        developers using tools like GitHub.
+                        Web Technology Mastery: Strong foundational knowledge in
+                        HTML and CSS, complemented by expertise in frontend
+                        frameworks like Bootstrap and Tailwind.
                       </li>
                       <li>
-                        Understanding of web development concepts like
-                        responsive design, accessibility, and cross-browser
-                        compatibility.
+                        Version Control and Collaboration: Familiarity with
+                        version control systems like Git, showcasing effective
+                        collaboration with developers through platforms such as
+                        GitHub.
+                      </li>
+                      <li>
+                        Web Development Best Practices: Understanding of key
+                        concepts such as responsive design, accessibility, and
+                        cross-browser compatibility, ensuring the delivery of
+                        high-quality, user-centric applications.
+                      </li>
+                      <li>
+                        AI Adaptability: Recognizing the evolving landscape, I
+                        have a keen awareness of industry changes, particularly
+                        in the realm of AI. I am committed to staying abreast of
+                        emerging trends and technologies, demonstrating a
+                        willingness to adapt and integrate AI solutions where
+                        applicable.
+                      </li>
+                      <li>
+                        Fast Learner: Demonstrated ability to quickly adapt to
+                        new technologies and methodologies, underlining a
+                        commitment to continuous learning and professional
+                        growth.
+                      </li>
+                      <li>
+                        Eager Contributor: Enthusiastic about making meaningful
+                        contributions to development teams and passionate about
+                        staying ahead in the ever-evolving field of Full Stack
+                        Development.
                       </li>
                     </ul>
                   </div>
@@ -135,22 +171,47 @@ const Project = () => {
                     <h4>Achievements</h4>
                     <ul>
                       <li>
-                        Participated and won a hackathon orgarnized my MIT,
-                        worked with a team to develop a new, innovative web
-                        application that received recognition from the judges.
+                        Successful Hackathon Victory: Emerged triumphant in a
+                        prestigious hackathon hosted by MIT, showcasing
+                        collaborative excellence within a team. Developed an
+                        innovative web application that garnered recognition
+                        from discerning judges for its creativity and technical
+                        prowess.
                       </li>
                       <li>
-                        Mentored and trained junior developers, helping them
-                        increase their skills and achieve promotions within the
-                        company.
+                        Leadership and Mentorship: Demonstrated leadership by
+                        mentoring and training junior developers, significantly
+                        contributing to their skill advancement and facilitating
+                        their promotions within the company. Fostered a
+                        collaborative and growth-oriented environment.
                       </li>
                       <li>
-                        Completed an intensive coding boot camp program, where I
-                        developed advanced skills in React.js and other web
-                        development technologies, culminating in a final project
-                        that received an "A" grade from an instructor.
+                        Coding Boot Camp Distinction: Successfully completed an
+                        intensive coding boot camp program, honing advanced
+                        skills in React.js and various cutting-edge web
+                        development technologies. Achieved an outstanding "A"
+                        grade for the final project, reflecting a commitment to
+                        excellence and mastery in the field.
                       </li>
-                      <li>Contributed to open-source projects.</li>
+                      <li>
+                        Dedication to Open Source: Actively contributed to
+                        open-source projects, exemplifying a commitment to the
+                        broader developer community. Collaborated with diverse
+                        teams to enhance and innovate in the open-source
+                        landscape.
+                      </li>
+                      <li>
+                        Continuous Learning: Engaged in ongoing professional
+                        development to stay abreast of industry trends and
+                        emerging technologies, reflecting a commitment to
+                        continuous learning and adaptability.
+                      </li>
+                      <li>
+                        Problem Solving: Demonstrated proficiency in solving
+                        complex challenges with a strategic and analytical
+                        mindset, contributing to the success of various projects
+                        and initiatives.
+                      </li>
                     </ul>
                   </div>
                 </Tab.Pane>

@@ -463,10 +463,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 15px;
   overflow: hidden;
   margin-bottom: 24px;
+  max-height: 18em;
 }
+.proj-imgbx a img {
+  object-fit: cover;
+  background-position: left;
+}
+
 
 .proj-imgbx a {
   color: white;
@@ -505,10 +511,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 0.5rem;
 }
 .proj-imgbx:hover .proj-txtx {
-  top: 35%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 
   opacity: 1;
 }
+
 
 .git-image {
   position: absolute;
@@ -569,7 +577,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.1em;
 }
 .proj-txtx span {
-  font-style: italic;
   font-weight: 400;
   font-size: 15px;
   letter-spacing: 0.8px;
